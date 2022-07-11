@@ -13,8 +13,8 @@ sudo systemctl restart ufw
 ufw-docker allow app 80
 ufw-docker allow app 443
 ## some OS' need these too, so just add them.
-ufw allow 443
-ufw allow 80
+ufw allow https
+ufw allow http
 ufw reload
 clear
 echo All done, now secure your SSH port again. Make sure to delete the old SSH rules: ufw status numbered, ufw delete NUM
