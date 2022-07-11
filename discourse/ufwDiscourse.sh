@@ -16,3 +16,5 @@ ufw-docker allow app 443
 ufw allow 443
 ufw allow 80
 ufw reload
+clear
+echo All done, now secure your SSH port again. Make sure to delete the old SSH rules: ufw status numbered, ufw delete NUM
