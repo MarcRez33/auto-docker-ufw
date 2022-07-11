@@ -1,7 +1,9 @@
 # Run script
 
-> WARNING: This script will reset your current ufw config!
+> WARNING: This script will reset your current ufw config! There will be no prompts after running the script.
 
-1. `sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourse.sh` 
-2. `chmod +x ufwDiscourse.sh`
-3. `./ufwDiscourse.sh`
+```
+sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourse.sh
+chmod +x ufwDiscourse.sh
+./ufwDiscourse.sh
+```
