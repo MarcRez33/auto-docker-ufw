@@ -7,6 +7,7 @@ It resets your firewall, installs ufw-docker-util (that edits the after.rules), 
 It also allows port 22 from any IP to make sure you don’t get locked out. After all works, secure port 22 again.
 
 ```
+cd
 rm ufwDiscourse.sh
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourse.sh
 chmod +x ufwDiscourse.sh
@@ -15,6 +16,7 @@ chmod +x ufwDiscourse.sh
 ```
 ### or for yum package manager
 ```
+cd
 rm ufwDiscourse.sh
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourseYum.sh
 chmod +x ufwDiscourse.sh
