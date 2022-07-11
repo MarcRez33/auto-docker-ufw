@@ -6,4 +6,5 @@
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourse.sh
 chmod +x ufwDiscourse.sh
 ./ufwDiscourse.sh
+
 ```
