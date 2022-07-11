@@ -13,3 +13,11 @@ chmod +x ufwDiscourse.sh
 ./ufwDiscourse.sh
 
 ```
+### or for yum package manager
+```
+rm ufwDiscourse.sh
+sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourseYum.sh
+chmod +x ufwDiscourse.sh
+./ufwDiscourse.sh
+
+```
