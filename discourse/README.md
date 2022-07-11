@@ -9,6 +9,7 @@ It also allows port 22 from any IP to make sure you don’t get locked out. Afte
 ```
 cd
 rm ufwDiscourse.sh
+sudo apt install wget
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourse.sh
 chmod +x ufwDiscourse.sh
 ./ufwDiscourse.sh
@@ -18,6 +19,7 @@ chmod +x ufwDiscourse.sh
 ```
 cd
 rm ufwDiscourse.sh
+sudo yum install wget
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourseYum.sh
 chmod +x ufwDiscourse.sh
 ./ufwDiscourse.sh
