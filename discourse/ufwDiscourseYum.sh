@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum update -y
-sudo yum install -y ufw
+sudo yum install -y ufw wget
 clear
 sudo yes | ufw reset
 sudo ufw allow ssh

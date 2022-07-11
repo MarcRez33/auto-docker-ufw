@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update -y
-sudo apt-get install -y ufw
+sudo apt-get install -y ufw wget
 clear
 sudo yes | ufw reset
 sudo ufw allow ssh
