@@ -27,3 +27,9 @@ chmod +x ufwDiscourseYum.sh
 ./ufwDiscourseYum.sh
 
 ```
+
+# If script ran and did not end with the message below, run above command again.
+
+```
+All done, now secure your SSH port again. Make sure to delete the old SSH rules: ufw delete NUM
+```
