@@ -16,6 +16,8 @@ ufw-docker allow app 443
 ## some OS' need these too, so just add them.
 ufw allow https
 ufw allow http
+ufw route allow proto tcp from any to 172.17.0.2 port 443
+ufw route allow proto tcp from any to 172.17.0.2 port 80
 ufw reload
 clear
 ufw status numbered

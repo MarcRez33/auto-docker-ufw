@@ -6,6 +6,8 @@ It resets your firewall, installs ufw-docker-util (that edits the after.rules), 
 
 It also allows port 22 from any IP to make sure you don’t get locked out. After all works, secure port 22 again.
 
+Best to run when Discourse is running, it will manually add docker forward rules anyway but those only work if Discourse is your only docker app. If Discourse is running the script always fetches the correct internal IP for the docker app (eg. 172.17.0.2 for the first app).
+
 ```
 cd
 rm ufwDiscourse.sh
