@@ -21,7 +21,7 @@ cd
 rm ufwDiscourse.sh
 sudo yum install wget -y
 sudo wget https://github.com/MarcRez33/auto-docker-ufw/raw/main/discourse/ufwDiscourseYum.sh
-chmod +x ufwDiscourse.sh
-./ufwDiscourse.sh
+chmod +x ufwDiscourseYum.sh
+./ufwDiscourseYum.sh
 
 ```
