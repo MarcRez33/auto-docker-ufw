@@ -17,5 +17,5 @@ ufw allow https
 ufw allow http
 ufw reload
 clear
-echo All done, now secure your SSH port again. Make sure to delete the old SSH rules: ufw delete NUM
 ufw status numbered
+echo All done, now secure your SSH port again. Make sure to delete the old SSH rules: ufw delete NUM
