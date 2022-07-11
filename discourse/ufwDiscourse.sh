@@ -2,7 +2,7 @@
 sudo apt-get update -y
 sudo apt-get install -y ufw
 clear
-sudo ufw reset
+sudo yes | ufw reset
 sudo ufw allow ssh
 sudo yes | sudo ufw enable
 sudo wget -O /usr/local/bin/ufw-docker https://github.com/chaifeng/ufw-docker/raw/master/ufw-docker
