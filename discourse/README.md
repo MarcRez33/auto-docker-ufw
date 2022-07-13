@@ -18,7 +18,7 @@ chmod +x ufwDiscourse.sh
 ./ufwDiscourse.sh
 
 ```
-### or for yum package manager
+### or for yum package manager (doesn't work - needs a fix?)
 ```
 cd
 rm ufwDiscourse.sh

@@ -10,10 +10,8 @@ sudo wget -O /usr/local/bin/ufw-docker https://github.com/chaifeng/ufw-docker/ra
 sudo chmod +x /usr/local/bin/ufw-docker
 ufw-docker install
 sudo systemctl restart ufw
-## Ubuntu needs this
 ufw-docker allow app 80
 ufw-docker allow app 443
-## some OS' need these too, so just add them.
 ufw allow https
 ufw allow http
 ufw route allow proto tcp from any to 172.17.0.2 port 443
